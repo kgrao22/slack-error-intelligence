@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local database and its write-ahead log. State lives on the `data` branch in
+# CI; a local copy should never be committed to main.
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Raw Slack dumps can contain customer emails and Stripe customer IDs.
+fixtures/slack_dump*.json
+eval.json
+eval.txt
+
+.DS_Store
+.idea/
+.vscode/
+
+# Generated digest reports contain raw customer excerpts.
+*.html

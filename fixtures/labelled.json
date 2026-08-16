@@ -1,0 +1,626 @@
+{
+  "1786846235.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "39035dbb-7c9b-44f4-8bd6-c40659447be6"
+  },
+  "1786861115.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "139c2341-7d7e-48f2-92d9-53bb52d291fe"
+  },
+  "1786838716.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "3fdc8091-aa23-4831-a2a9-21869d84d4b0"
+  },
+  "1786861693.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "2dfe8641-a39f-406e-a972-b718b3740565"
+  },
+  "1786864071.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "cf89086b-abd0-4690-9cc7-7429a54fa7da"
+  },
+  "1786869837.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "fa72940d-52b1-41e6-b86b-4d669c1e9c3b"
+  },
+  "1786866085.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "c6ade4e5-011f-40b8-8526-b2631df04314"
+  },
+  "1786842646.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "54897f84-b324-4788-8612-c7125b9dcbaf"
+  },
+  "1786872444.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "a8ca5b57-5dd8-49e9-87af-a5f8714c960c"
+  },
+  "1786863701.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "597044d0-bad6-4a36-86fb-f84cd79ac2cd"
+  },
+  "1786878794.000000": {
+    "true_cluster": "total_mismatch",
+    "true_quote": "f09bf58c-7c84-461a-9923-95c107ae9b34"
+  },
+  "1786848209.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "50a9ef29-431f-4c37-adc4-4d4a49d3939f"
+  },
+  "1786877202.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "71acfb32-5c39-40ce-aea0-cac6db502c92"
+  },
+  "1786867666.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "7ab81b52-a4db-4b97-bb1a-255f47b14ddd"
+  },
+  "1786840249.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "65ff830b-9d21-42c8-a5f2-c16e92a2eaba"
+  },
+  "1786857555.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "cb94e076-c35c-4e9e-8462-338e03581a72"
+  },
+  "1786877531.000000": {
+    "true_cluster": "crm_sync",
+    "true_quote": "ed257d24-26f4-4b69-8ac9-0a9735cea2cf"
+  },
+  "1786839160.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "54732a57-bb3f-47c5-89c2-067cb6acb408"
+  },
+  "1786836671.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "aea1b6f9-5717-4ecf-97e4-eeccacb43de1"
+  },
+  "1786843547.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "1e0a1f93-9e3e-4704-9309-4551238d2a3a"
+  },
+  "1786877570.000000": {
+    "true_cluster": "crm_sync",
+    "true_quote": "c1fa18ca-8104-448f-862d-be426cb37b3d"
+  },
+  "1786857221.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "2d2badc4-64c9-4850-83fe-48b705f0c2e0"
+  },
+  "1786858548.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "4cedb6f5-a8e6-44c2-bdf9-340d6148b189"
+  },
+  "1786847689.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "78302406-cbd5-47aa-8a7e-40fe3be99889"
+  },
+  "1786845484.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "cd9653dd-7082-41f5-b1de-acea93ba1d1e"
+  },
+  "1786836807.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "404dbac1-d1e3-479b-a5c3-37d486688209"
+  },
+  "1786834721.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "bfea9594-2336-4991-8c85-266716b10b50"
+  },
+  "1786871536.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "64af06c2-6b37-4293-884f-13233abd80c5"
+  },
+  "1786836314.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "9732f7c7-cae8-4f86-bad6-b90a0023bb7a"
+  },
+  "1786850428.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "7dcdc571-12f4-4a62-a77c-a9f307d276e8"
+  },
+  "1786844389.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "261c0858-c089-4cb9-83cb-82e3a70b874b"
+  },
+  "1786835950.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "4bb57d6f-ed12-46c8-af5c-53756044594d"
+  },
+  "1786871171.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "13162f0a-131a-45a5-b5f0-d7d5412cae73"
+  },
+  "1786846892.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "1d941848-ef52-447b-a92a-ea5f0f471607"
+  },
+  "1786874243.000000": {
+    "true_cluster": "payment_no_default_method",
+    "true_quote": "1fb87950-36e7-4910-881f-81be2b2c37c2"
+  },
+  "1786839690.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "af482cdf-07a5-4da8-b7b7-c1fd5788aaf8"
+  },
+  "1786849735.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "09625592-fb18-40cf-80e1-2625d663b5c8"
+  },
+  "1786854783.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "d5e5b24a-2aa6-4c44-ab24-bafdb2a04075"
+  },
+  "1786878106.000000": {
+    "true_cluster": "crm_sync",
+    "true_quote": "34f22b3d-bef9-47bd-92d4-42af1ef836d0"
+  },
+  "1786872286.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "6df3784e-265f-4ef9-9579-d95a03494d56"
+  },
+  "1786851514.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "0efa89fb-13c2-4fcb-9a74-a95a666dfe9a"
+  },
+  "1786866965.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "80340ea5-ab74-4605-ab1d-b556aae10fbb"
+  },
+  "1786850490.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "a7b7bd96-3c78-4c9d-a37c-9cd09f6bf3e7"
+  },
+  "1786869227.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "ef9d7c91-82d0-42a1-9e30-2348f04ff45a"
+  },
+  "1786874743.000000": {
+    "true_cluster": "payment_no_default_method",
+    "true_quote": "3cc005b3-3cba-4127-b0ba-c9edb2ec0d75"
+  },
+  "1786873254.000000": {
+    "true_cluster": "subscription_setup_failed",
+    "true_quote": "f84156f3-d0f7-40f6-96ed-602b723606fd"
+  },
+  "1786837355.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "2745a784-415c-4ab8-8c6d-46beb998cbd8"
+  },
+  "1786833533.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "bedf5c8d-985b-468e-9356-e22d095e763d"
+  },
+  "1786879158.000000": {
+    "true_cluster": "total_mismatch",
+    "true_quote": "b6008da2-2b59-40d8-a9d9-ba06299230e8"
+  },
+  "1786839595.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "b8c9432e-f31f-4fd6-9679-c5863123de90"
+  },
+  "1786855210.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "8bf95234-11e6-4fb8-9c1d-4a13682cadcf"
+  },
+  "1786876990.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "082c5245-bea3-4f29-8bbf-f76020ed13aa"
+  },
+  "1786878855.000000": {
+    "true_cluster": "total_mismatch",
+    "true_quote": "3f619298-1098-41cc-9d20-b650be0234df"
+  },
+  "1786856967.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "f5e635c3-27d7-4966-94ea-ec987db48caf"
+  },
+  "1786873636.000000": {
+    "true_cluster": "subscription_setup_failed",
+    "true_quote": "bffb4438-5aed-4330-a51f-e3e51dcfe67e"
+  },
+  "1786841729.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "13fa7fd4-5c0b-494c-8c2d-aea8858bf22c"
+  },
+  "1786852219.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "9368036f-3c33-42f6-9883-c57a669875b2"
+  },
+  "1786843072.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "bf9c5fca-3a3f-4c08-8863-a6e25dea452b"
+  },
+  "1786866526.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "218f533a-b077-412c-b569-d4a3db2dd362"
+  },
+  "1786864959.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "099d42ae-c5a0-4c6c-baa1-ce110dd9be53"
+  },
+  "1786879629.000000": {
+    "true_cluster": "total_mismatch",
+    "true_quote": "e05f7b3a-1df1-464e-979f-4216af322ff4"
+  },
+  "1786866914.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "81bd34b2-b9ce-46c2-91ff-e17eb5a3e401"
+  },
+  "1786865803.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "96a7a8a9-7268-4d4b-81c2-97ab6b331a45"
+  },
+  "1786878320.000000": {
+    "true_cluster": "crm_sync",
+    "true_quote": "1e011e50-3b94-4455-8c82-a559822cc54a"
+  },
+  "1786855979.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "fe78108d-74ec-4f9f-8938-f782883963df"
+  },
+  "1786845827.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "3cb1667a-cb03-4367-a35a-4ec3618cf594"
+  },
+  "1786832362.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "cada1717-e559-4b30-93f3-444fed1d1993"
+  },
+  "1786849877.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "0b0ddf3c-5fa4-4f86-9c2d-bf3c22f8d55c"
+  },
+  "1786869678.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "955c34e9-b6f6-48bf-8f2b-7929071addb2"
+  },
+  "1786860393.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "cb1cff62-60c7-4288-a09c-b6053c277691"
+  },
+  "1786871697.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "27037701-f069-47b1-8bd4-85e004436a98"
+  },
+  "1786858024.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "aa334342-837a-4bc0-8c14-3ecc0c79060b"
+  },
+  "1786833805.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "5c9b4a1d-8497-4a1e-8fd9-ad9d489c731b"
+  },
+  "1786854320.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "66903baa-4f3e-4139-be27-3b40c33997e8"
+  },
+  "1786841786.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "795be3ca-ad16-48a9-b109-218d916b56c5"
+  },
+  "1786849547.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "202935c0-9bef-4274-a47b-d7f80353e1c5"
+  },
+  "1786851965.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "50bdaef1-1a3f-4621-afee-5fb49ca679f7"
+  },
+  "1786848496.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "e2d066db-111e-4270-bb4b-2368808943d5"
+  },
+  "1786831867.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "66f931a2-cda9-4fd7-ab30-4da1b7de29af"
+  },
+  "1786835538.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "8db6d6dc-c3e7-4293-b560-3ac13dc8500d"
+  },
+  "1786847153.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "62352306-4a9c-4c9c-aa91-e5d70c7f125c"
+  },
+  "1786833104.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "50328b8f-28ac-46e2-aba3-a93ea6a5b876"
+  },
+  "1786867135.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "3adab61c-dffd-48e3-b085-2b721883c9e1"
+  },
+  "1786870000.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "eced1b43-e137-430c-a4e8-c3675883e867"
+  },
+  "1786868279.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "53f9330e-07d1-449d-b970-db8a022bafd8"
+  },
+  "1786874945.000000": {
+    "true_cluster": "payment_no_default_method",
+    "true_quote": "eca54422-0495-4266-a8d1-ee028d2cf5fe"
+  },
+  "1786862862.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "d22b0426-879a-4aea-a53b-01e182810440"
+  },
+  "1786850257.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "df4444ca-b9cd-4d56-ab49-a7100d82f075"
+  },
+  "1786876747.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "da870117-0e50-4b9d-b69b-849fe2447acd"
+  },
+  "1786854002.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "5eb8f807-0ad2-4bc2-97e7-374fae4eb25b"
+  },
+  "1786871677.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "fcabd1f0-b125-48f6-9a01-fc981dc1b4fe"
+  },
+  "1786866376.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "2595db33-91b9-490e-aab1-4fc876944357"
+  },
+  "1786854035.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "24980e51-1174-4a74-990a-244127f42b03"
+  },
+  "1786872061.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "edb23784-072c-4eb7-896f-d87f962840c7"
+  },
+  "1786852718.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "65950110-ca60-481c-b87d-1bfa12525ae2"
+  },
+  "1786858797.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "b4adbb96-d9ba-44c8-99b2-5482c33fa322"
+  },
+  "1786874715.000000": {
+    "true_cluster": "payment_no_default_method",
+    "true_quote": "1b7e7f6c-5f50-4609-897b-c5453aa97678"
+  },
+  "1786832735.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "d7ac87aa-2d8f-4df3-a10b-a00221134801"
+  },
+  "1786867812.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "ea768e14-047b-4af0-acf6-b16b0b47d3db"
+  },
+  "1786848583.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "fb94a1be-e610-4d1c-9bf4-3753d368d385"
+  },
+  "1786843260.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "155b3a91-d5b7-4264-b95b-313ab07d6715"
+  },
+  "1786877100.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "7098a8b1-f7ce-45cb-b87a-1a2574773eb1"
+  },
+  "1786873693.000000": {
+    "true_cluster": "payment_no_default_method",
+    "true_quote": "99b53584-258b-498e-9690-395c7b5aaa79"
+  },
+  "1786870355.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "83afa2ca-a56e-481e-8026-829c1bfb8939"
+  },
+  "1786880476.000000": {
+    "true_cluster": "total_mismatch",
+    "true_quote": "74be6aa6-fb80-432f-86d7-3c4e474ec9e9"
+  },
+  "1786862286.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "2c416aa7-ecce-477e-a35d-275db16e496b"
+  },
+  "1786859827.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "bede5130-7494-4e87-80ce-c9b84961402b"
+  },
+  "1786842238.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "ae9b1420-704f-4006-abed-ac74b33636c1"
+  },
+  "1786839114.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "e1874a39-f4c7-404d-9fad-8bc66054e7b0"
+  },
+  "1786869329.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "03af9477-3d26-4a99-9df2-59601e9c1d9d"
+  },
+  "1786878752.000000": {
+    "true_cluster": "crm_sync",
+    "true_quote": "49381b70-a7a2-4459-a359-c025f29344d1"
+  },
+  "1786849026.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "7def071a-4104-42bb-a155-ab89507d3d9b"
+  },
+  "1786844565.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "36446820-3daf-43d1-8773-fdb7f807e4eb"
+  },
+  "1786852564.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "915dd942-43e7-47f6-8edf-376e66e92644"
+  },
+  "1786843861.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "7f7aa454-4018-4974-bed6-98dc23579c05"
+  },
+  "1786853050.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "28df54d6-6ab2-4247-8f9c-3437ca9a54c2"
+  },
+  "1786840812.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "b652e4cc-fe07-4947-8004-27e2656dbe3c"
+  },
+  "1786850554.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "91e9ac75-0193-47f4-9ccb-48126fda7c6e"
+  },
+  "1786831697.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "59888dd1-780e-44d1-958c-12e1de458f5a"
+  },
+  "1786864463.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "65a3dbaa-1b9b-4eda-ade7-6f9ccf1a5191"
+  },
+  "1786870724.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "bd0ce061-768f-4564-90d6-283c8c41dbd6"
+  },
+  "1786835803.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "9f1de50a-43ce-4947-87df-a996f8391ea3"
+  },
+  "1786872818.000000": {
+    "true_cluster": "subscription_setup_failed",
+    "true_quote": "d27a1356-a861-44ff-aff8-66250b198710"
+  },
+  "1786859337.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "69cdde3a-cf02-47b7-bc48-429c9f16e3f7"
+  },
+  "1786868862.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "40e35984-0e27-4a06-8a72-dc1530b59c5e"
+  },
+  "1786860626.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "6b8a05e5-54c2-4b36-b3e5-0c33d5b18108"
+  },
+  "1786849903.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "47559f83-11c6-4e28-84c6-414fab5de2d0"
+  },
+  "1786856055.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "5683b065-c9eb-4689-bada-c32fc3d9a85e"
+  },
+  "1786863429.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "205c6206-6c11-4ce7-a25e-27b0c3fadc80"
+  },
+  "1786875616.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "ab109b36-8924-4729-9f51-80f045522a13"
+  },
+  "1786872852.000000": {
+    "true_cluster": "subscription_setup_failed",
+    "true_quote": "0d342fa3-51a6-4496-8651-959ddea80140"
+  },
+  "1786856497.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "3b4eeeef-ac21-4224-ba39-98dcdfb81900"
+  },
+  "1786841321.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "d4b791f1-fc5e-48a7-8e16-1f17b3245d72"
+  },
+  "1786876230.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "80f8f275-4211-4235-95cf-27e9e7bbfd1a"
+  },
+  "1786876030.000000": {
+    "true_cluster": "occupation_not_found",
+    "true_quote": "bfa0871d-fc3e-432a-94f0-e802be0fa119"
+  },
+  "1786834977.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "637da8dc-da4d-4187-bade-7ab236ee4ea1"
+  },
+  "1786862382.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "14852292-6747-4740-aa1f-37abd93c4ff6"
+  },
+  "1786838136.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "fd21011c-a1ef-4b3a-8029-2698ce27ec3c"
+  },
+  "1786858649.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "b86caa10-3749-4647-bad7-db0405bd140e"
+  },
+  "1786838024.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "8fcda88b-deaf-4053-8194-878b4040b512"
+  },
+  "1786870565.000000": {
+    "true_cluster": "db_timeout",
+    "true_quote": "7eeba327-82de-441e-8d99-68a4292773ec"
+  },
+  "1786880075.000000": {
+    "true_cluster": "total_mismatch",
+    "true_quote": "5dae5d79-9d16-4cf6-819e-56ad3add9574"
+  },
+  "1786853623.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "536b3a54-85be-482c-bc5c-628e63d0e133"
+  },
+  "1786841011.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "ba13441a-0d36-4c03-b095-9e06d43a79d3"
+  },
+  "1786865326.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "181ee6b1-dc22-42eb-9139-e618e58b54c8"
+  },
+  "1786834195.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "b9ee78d3-9795-4e62-8f1f-25ba8c74a9d5"
+  },
+  "1786833039.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "05203746-24fe-45af-9c0a-0aa3693df966"
+  },
+  "1786845035.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "d5ba0720-3678-4f8c-8686-dea83a15ec97"
+  },
+  "1786857522.000000": {
+    "true_cluster": "http400_quote_docs",
+    "true_quote": "dd3574f1-caa5-4b70-bb61-f82ab4d6383f"
+  },
+  "1786871892.000000": {
+    "true_cluster": "card_declined",
+    "true_quote": "4e0b22ab-42fd-4ca8-bcf9-041b9d1e4178"
+  },
+  "1786846730.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "4ea5f25c-6796-4b9f-a797-faae25771672"
+  },
+  "1786837723.000000": {
+    "true_cluster": "unanswered_question",
+    "true_quote": "2666ec79-bba6-4779-a8df-6dd70cd77895"
+  },
+  "1786851135.000000": {
+    "true_cluster": "partner_api_validation",
+    "true_quote": "48972155-8266-4139-bc2b-ee81bfc90b50"
+  },
+  "1786864800.000000": {
+    "true_cluster": "http400_pricing",
+    "true_quote": "a549bc78-361c-4a9a-bca5-5c5af287dd57"
+  },
+  "1786875084.000000": {
+    "true_cluster": "payment_no_default_method",
+    "true_quote": "5a4932bc-564c-40ac-9a31-e2a493802f8b"
+  },
+  "1786855743.000000": {
+    "true_cluster": "empty_premium_array",
+    "true_quote": "3849efc7-cd72-4f45-a324-6c15dde9d2ea"
+  }
+}

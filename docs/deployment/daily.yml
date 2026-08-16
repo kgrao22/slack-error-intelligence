@@ -1,0 +1,118 @@
+name: Daily error report
+
+# The schedule is commented out in this public copy so a fork with no secrets
+# configured does not fail once a day forever. Uncomment it after setting
+# REI_SLACK_BOT_TOKEN, REI_ANTHROPIC_API_KEY and REI_VOYAGE_API_KEY as
+# repository secrets.
+on:
+  # schedule:
+  #   # 06:30 Asia/Kolkata = 01:00 UTC. GitHub cron is always UTC and does not
+  #   # observe daylight saving anywhere, so this stays put year-round.
+  #   - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Lookback window in days"
+        required: false
+        default: "1"
+      dry_run:
+        description: "Print the payload instead of posting to Slack"
+        type: boolean
+        required: false
+        default: false
+
+concurrency:
+  group: daily-report
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install
+        run: pip install -e .
+
+      # State lives on an orphan `data` branch, checked out as a worktree. The
+      # branch is force-pushed as a single squashed commit each run: the SQLite
+      # file is a binary blob that changes every day, so keeping its git history
+      # would grow the repo without bound. The history that matters — every
+      # event, template and cluster — is inside the database's own tables.
+      - name: Restore state
+        run: |
+          set -euo pipefail
+          git config user.name  "error-digest-bot"
+          git config user.email "error-digest-bot@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin data >/dev/null 2>&1; then
+            git fetch --depth=1 origin data
+            git worktree add state FETCH_HEAD
+            cd state && git checkout -B data
+          else
+            echo "no data branch yet - bootstrapping"
+            git worktree add --detach state
+            cd state
+            git checkout --orphan data
+            git rm -rf . >/dev/null 2>&1 || true
+          fi
+
+      - name: Run report
+        env:
+          REI_SLACK_BOT_TOKEN: ${{ secrets.REI_SLACK_BOT_TOKEN }}
+          REI_ANTHROPIC_API_KEY: ${{ secrets.REI_ANTHROPIC_API_KEY }}
+          REI_VOYAGE_API_KEY: ${{ secrets.REI_VOYAGE_API_KEY }}
+          REI_SOURCE_CHANNEL_ID: ${{ vars.REI_SOURCE_CHANNEL_ID }}
+          REI_DEST_CHANNEL_ID: ${{ vars.REI_DEST_CHANNEL_ID }}
+          REI_MENTION_USER_IDS: ${{ vars.REI_MENTION_USER_IDS }}
+        run: |
+          rei run \
+            --days "${{ github.event.inputs.days || 1 }}" \
+            --db state/rei.db \
+            ${{ github.event.inputs.dry_run == 'true' && '--dry-run' || '' }}
+
+      # Pull human replies on yesterday's report into the corpus. Runs after the
+      # post so a same-day reply is picked up tomorrow, which is when it is
+      # actually useful.
+      - name: Harvest resolutions
+        continue-on-error: true
+        env:
+          REI_SLACK_BOT_TOKEN: ${{ secrets.REI_SLACK_BOT_TOKEN }}
+          REI_DEST_CHANNEL_ID: ${{ vars.REI_DEST_CHANNEL_ID }}
+        run: rei harvest --days 14 --db state/rei.db
+
+      - name: Persist state
+        if: always()
+        run: |
+          set -euo pipefail
+          cd state
+          rm -f rei.db-wal rei.db-shm
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no state change"
+            exit 0
+          fi
+          git commit -m "state: $(date -u +%Y-%m-%d)" --quiet
+          # Squash to a single commit so the branch never accumulates blobs.
+          git checkout --orphan squashed --quiet
+          git add -A
+          git commit -m "state: $(date -u +%Y-%m-%d)" --quiet
+          git push --force origin squashed:data
+
+      - name: Upload database as an artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rei-db-${{ github.run_number }}
+          path: state/rei.db
+          retention-days: 14
+          if-no-files-found: warn
